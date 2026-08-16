@@ -1,0 +1,71 @@
+@ElasticLocalDemo_HostAddress = http://localhost:5263
+
+### Add a Product
+POST {{ElasticLocalDemo_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "id": "101",
+  "name": "Wireless Ergonomic Mouse",
+  "description": "High precision optical tracking mouse with long battery life.",
+  "price": 49.99,
+  "category": "Electronics"
+}
+
+###
+
+### Add another Product
+POST {{ElasticLocalDemo_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "id": "102",
+  "name": "Mechanical Gaming Keyboard",
+  "description": "RGB backlit mechanical keyboard with cherry switches.",
+  "price": 89.99,
+  "category": "Electronics"
+}
+
+###
+
+### Add a third Product
+POST {{ElasticLocalDemo_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "id": "103",
+  "name": "USB-C Hub",
+  "description": "Multi-port USB-C hub with HDMI and card reader.",
+  "price": 34.99,
+  "category": "Accessories"
+}
+
+###
+
+### Search with fuzzy matching (typo tolerance)
+GET {{ElasticLocalDemo_HostAddress}}/api/products/search?query=mouuse
+Accept: application/json
+
+###
+
+### Search for "wireless"
+GET {{ElasticLocalDemo_HostAddress}}/api/products/search?query=wireless
+Accept: application/json
+
+###
+
+### Search with typo "keybord"
+GET {{ElasticLocalDemo_HostAddress}}/api/products/search?query=keybord
+Accept: application/json
+
+###
+
+### Filter by category "Electronics"
+GET {{ElasticLocalDemo_HostAddress}}/api/products/category/Electronics
+Accept: application/json
+
+###
+
+### Filter by category "Accessories"
+GET {{ElasticLocalDemo_HostAddress}}/api/products/category/Accessories
+Accept: application/json

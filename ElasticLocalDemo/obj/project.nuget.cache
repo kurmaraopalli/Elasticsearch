@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rw1x1UxFK3c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kurma\\OneDrive\\Documents\\Workspace\\Elasticsearch\\ElasticLocalDemo\\ElasticLocalDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kurma\\.nuget\\packages\\elastic.clients.elasticsearch\\9.5.0\\elastic.clients.elasticsearch.9.5.0.nupkg.sha512",
+    "C:\\Users\\kurma\\.nuget\\packages\\elastic.esql\\0.11.0\\elastic.esql.0.11.0.nupkg.sha512",
+    "C:\\Users\\kurma\\.nuget\\packages\\elastic.transport\\0.17.1\\elastic.transport.0.17.1.nupkg.sha512",
+    "C:\\Users\\kurma\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\kurma\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\kurma\\OneDrive\\Documents\\Workspace\\Elasticsearch\\ElasticLocalDemo\\ElasticLocalDemo.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\kurma\\OneDrive\\Documents\\Workspace\\Elasticsearch\\ElasticLocalDemo\\ElasticLocalDemo.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

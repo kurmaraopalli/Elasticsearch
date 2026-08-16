@@ -1,0 +1,9 @@
+C:\Users\kurma\OneDrive\Documents\Workspace\Elasticsearch\ElasticLocalDemo\obj\Debug\net10.0\ElasticLocalDemo.csproj.AssemblyReference.cache
+C:\Users\kurma\OneDrive\Documents\Workspace\Elasticsearch\ElasticLocalDemo\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\kurma\OneDrive\Documents\Workspace\Elasticsearch\ElasticLocalDemo\obj\Debug\net10.0\ElasticLocalDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurma\OneDrive\Documents\Workspace\Elasticsearch\ElasticLocalDemo\obj\Debug\net10.0\ElasticLocalDemo.AssemblyInfoInputs.cache
+C:\Users\kurma\OneDrive\Documents\Workspace\Elasticsearch\ElasticLocalDemo\obj\Debug\net10.0\ElasticLocalDemo.AssemblyInfo.cs
+C:\Users\kurma\OneDrive\Documents\Workspace\Elasticsearch\ElasticLocalDemo\obj\Debug\net10.0\ElasticLocalDemo.csproj.CoreCompileInputs.cache
+C:\Users\kurma\OneDrive\Documents\Workspace\Elasticsearch\ElasticLocalDemo\obj\Debug\net10.0\ElasticLocalDemo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kurma\OneDrive\Documents\Workspace\Elasticsearch\ElasticLocalDemo\obj\Debug\net10.0\ElasticLocalDemo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kurma\OneDrive\Documents\Workspace\Elasticsearch\ElasticLocalDemo\obj\Debug\net10.0\ElasticLocalDemo.sourcelink.json
